@@ -1,15 +1,25 @@
 {
   "name": "next-starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Next.js Starter",
+  "author": "Christopher Carpenter <mrchriscarpenter@outlook.com>",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier-write": "prettier --write .",
+    "prettier-check": "prettier --check .",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "npm run lint",
+    "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "next": "12.1.6",
+    "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -18,7 +28,11 @@
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
     "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6",
+    "eslint-config-next": "12.2.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1",
     "typescript": "4.7.4"
   }
 }
