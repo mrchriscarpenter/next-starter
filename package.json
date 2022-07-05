@@ -1,7 +1,7 @@
 {
   "name": "next-starter",
   "version": "1.0.0",
-  "description": "Next.js Starter",
+  "description": "A minimal Next.js starter template preconfigured with TypeScript, ESLint, Prettier, and Husky.",
   "author": "Christopher Carpenter <mrchriscarpenter@outlook.com>",
   "license": "MIT",
   "private": true,
@@ -15,7 +15,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "npm run lint",
+    "*.{js,jsx,ts,tsx}": "next lint",
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {

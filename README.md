@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Minimal Next.js Starter Template
+
+This is a minimal [Next.js](https://nextjs.org) starter template preconfigured with [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org), [Prettier](https://prettier.io), and [Husky](https://typicode.github.io/husky/#/).
+
+## Features
+
+- [Next.js 12.2](https://nextjs.org/docs/getting-started) with [React 18.2](https://reactjs.org/docs/getting-started.html)
+- [TypeScript](https://www.typescriptlang.org/docs)
+- [ESLint](https://eslint.org/docs/latest/user-guide/getting-started)
+- [Prettier](https://prettier.io/docs/en/index.html)
+- [Husky](https://typicode.github.io/husky/#/)
 
 ## Getting Started
 
-First, run the development server:
+### GitHub Template
+
+Create a repo from this template on GitHub.
+
+### Install NPM Packages
+
+```bash
+npm i
+```
+
+### Start Next.js in Development Mode
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will start at [http://localhost:3000](http://localhost:3000) by default.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Start Next.js in Production Mode
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+npm run build
+npm run start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The application will start at [http://localhost:3000](http://localhost:3000) by default.
 
 ## Learn More
 
+This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, ESLint, Prettier, and Husky.
+
+The template is based on the Next.js [create-next-app](https://nextjs.org/docs/getting-started#automatic-setup) with additional npm packages and configurations.
+
+If you would like to create your own Next.js app from scratch, run:
+
+```bash
+npx create-next-app@latest
+# or
+npx create-next-app@latest --typescript
+```
+
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
