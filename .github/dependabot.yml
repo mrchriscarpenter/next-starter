@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "mrchriscarpenter"
+    assignees:
+      - "mrchriscarpenter"
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
+    labels:
+      - "npm"
+      - "dependencies"
