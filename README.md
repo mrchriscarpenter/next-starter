@@ -14,7 +14,7 @@ This is a minimal [Next.js](https://nextjs.org) starter template preconfigured w
 
 ### GitHub Template
 
-Create a repo from this template on GitHub.
+[Create a repo from this template on GitHub](https://github.com/mrchriscarpenter/next-starter/generate).
 
 ### Install NPM Packages
 
