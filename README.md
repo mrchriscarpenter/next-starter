@@ -1,3 +1,5 @@
+![Next.js Starter Template Banner](https://repository-images.githubusercontent.com/511310891/a4446da8-cefa-4d66-ad2e-b766735aba28)
+
 # Minimal Next.js Starter Template
 
 This is a minimal [Next.js](https://nextjs.org) starter template preconfigured with [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org), [Prettier](https://prettier.io), and [Husky](https://typicode.github.io/husky/#/).
