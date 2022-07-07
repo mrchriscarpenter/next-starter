@@ -1,4 +1,4 @@
-![Next.js Starter Template Banner](https://repository-images.githubusercontent.com/511310891/a4446da8-cefa-4d66-ad2e-b766735aba28)
+![Next.js Starter Template Banner](/public/mrchriscarpenter-next-starter.png)
 
 # Minimal Next.js Starter Template
 
