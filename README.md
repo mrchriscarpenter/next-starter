@@ -6,7 +6,7 @@ This is a minimal [Next.js](https://nextjs.org) starter template preconfigured w
 
 ## Features
 
-- [Next.js 12.2](https://nextjs.org/docs/getting-started) with [React 18.2](https://reactjs.org/docs/getting-started.html)
+- [Next.js 13.2](https://nextjs.org/docs/getting-started) with [React 18.2](https://reactjs.org/docs/getting-started.html)
 - [TypeScript](https://www.typescriptlang.org/docs)
 - [ESLint](https://eslint.org/docs/latest/user-guide/getting-started)
 - [Prettier](https://prettier.io/docs/en/index.html)
@@ -46,6 +46,8 @@ The application will start at [http://localhost:3000](http://localhost:3000) by 
 This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, ESLint, Prettier, and Husky.
 
 The template is based on the Next.js [create-next-app](https://nextjs.org/docs/getting-started#automatic-setup) with additional npm packages and configurations.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 If you would like to create your own Next.js app from scratch, run:
 
