@@ -6,7 +6,7 @@ This is a minimal [Next.js](https://nextjs.org) starter template preconfigured w
 
 ## Features
 
-- [Next.js 13.2](https://nextjs.org/docs/getting-started) with [React 18.2](https://reactjs.org/docs/getting-started.html)
+- [Next.js 13.4](https://nextjs.org/docs/getting-started) with [React 18.2](https://reactjs.org/docs/getting-started.html)
 - [TypeScript](https://www.typescriptlang.org/docs)
 - [ESLint](https://eslint.org/docs/latest/user-guide/getting-started)
 - [Prettier](https://prettier.io/docs/en/index.html)
@@ -53,8 +53,6 @@ If you would like to create your own Next.js app from scratch, run:
 
 ```bash
 npx create-next-app@latest
-# or
-npx create-next-app@latest --typescript
 ```
 
 To learn more about Next.js, take a look at the following resources:
