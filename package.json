@@ -1,6 +1,6 @@
 {
   "name": "next-starter",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "A minimal Next.js starter template preconfigured with TypeScript, ESLint, Prettier, and Husky.",
   "author": "Christopher Carpenter <mrchriscarpenter@outlook.com>",
   "license": "MIT",
@@ -19,28 +19,28 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "next": "13.4.19",
+    "next": "13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.5.6",
-    "@types/react": "^18.2.21",
+    "@types/node": "^20.6.3",
+    "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "@typescript-eslint/parser": "^5.32.0",
-    "eslint": "8.47.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "8.49.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-next": "13.4.19",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-import-resolver-typescript": "^3.4.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-config-next": "13.5.2",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.0",
-    "prettier": "2.8.7",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3",
     "typescript": "5.2.2"
   }
 }
