@@ -73,7 +73,7 @@ const Home = () => {
           <h2>
             Templates <span>-&gt;</span>
           </h2>
-          <p>Explore the Next.js 13 playground.</p>
+          <p>Explore starter templates for Next.js.</p>
         </a>
 
         <a
