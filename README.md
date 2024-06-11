@@ -6,7 +6,7 @@ This is a minimal [Next.js](https://nextjs.org) starter template preconfigured w
 
 ## Features
 
-- [Next.js 14](https://nextjs.org/docs/getting-started) with [React 18.2](https://reactjs.org/docs/getting-started.html)
+- [Next.js 14](https://nextjs.org/docs/getting-started) with [React 18.3](https://reactjs.org/docs/getting-started.html)
 - [TypeScript](https://www.typescriptlang.org/docs)
 - [ESLint](https://eslint.org/docs/latest/user-guide/getting-started)
 - [Prettier](https://prettier.io/docs/en/index.html)
