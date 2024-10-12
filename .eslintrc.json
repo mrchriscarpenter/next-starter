@@ -7,9 +7,8 @@
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "airbnb",
-    "airbnb/hooks",
     "next/core-web-vitals",
+    "next/typescript",
     "prettier"
   ],
   "plugins": ["react", "import", "jsx-a11y", "@typescript-eslint"],
