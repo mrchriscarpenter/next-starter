@@ -1,6 +1,6 @@
 {
   "name": "next-starter",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "A minimal Next.js starter template preconfigured with TypeScript, ESLint, Prettier, and Husky.",
   "author": "Christopher Carpenter <mrchriscarpenter@outlook.com>",
   "license": "MIT",
