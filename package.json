@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "commit": "commit"
   },
   "dependencies": {
     "next": "15.4.1",
@@ -18,11 +19,17 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.2",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/prompt-cli": "^19.8.1",
     "@types/node": "^24.0.14",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "lefthook": "^1.12.2",
     "typescript": "^5.8.3",
     "ultracite": "5.0.46"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
