@@ -41,6 +41,26 @@ npm run start
 
 The application will start at [http://localhost:3000](http://localhost:3000) by default.
 
+## Ultracite CLI
+
+Ultracite comes with a convenient CLI (invoked as `ultracite` when installed). Here are common ways to use it.
+
+### Linting
+
+The `lint` command wraps the Biome `check` command, which runs the linter without fixing files.
+
+```shell
+npx ultracite lint
+```
+
+### Formatting
+
+The `format` command wraps the Biome `check --write` command, which runs the linter and fixes files.
+
+```shell
+npx ultracite format
+```
+
 ## Learn More
 
 This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, Biome, Ultracite, and Lefthook.

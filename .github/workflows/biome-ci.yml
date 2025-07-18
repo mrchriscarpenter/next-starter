@@ -1,0 +1,32 @@
+# This workflow will run the Biome formatter, linter, and import sorting for CI.
+# Files won't be modified, the command is a read-only operation.
+
+name: Biome CI
+
+on: [push, pull_request]
+
+jobs:
+  biome-ci:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+          cache: "npm"
+
+      - name: Install dependencies based on lockfile
+        run: npm ci
+
+      - name: Setup Biome
+        uses: biomejs/setup-biome@v2
+
+      - name: Run Biome
+        run: biome ci
