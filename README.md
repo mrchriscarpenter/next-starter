@@ -1,5 +1,3 @@
-![Next.js Starter Template Banner](/public/mrchriscarpenter-next-starter.png)
-
 # Minimal Next.js Starter Template
 
 This is a minimal [Next.js](https://nextjs.org) starter template preconfigured with [TypeScript](https://www.typescriptlang.org), [Biome](https://biomejs.dev), [Ultracite](https://www.ultracite.ai), [Lefthook](https://lefthook.dev), and [commitlint](https://commitlint.js.org).
