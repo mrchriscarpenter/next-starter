@@ -1,45 +1,35 @@
 {
   "name": "next-starter",
-  "version": "5.0.1",
-  "description": "A minimal Next.js starter template preconfigured with TypeScript, ESLint, Prettier, and Husky.",
+  "private": true,
+  "version": "6.0.0",
+  "type": "module",
+  "description": "A minimal Next.js starter template preconfigured with TypeScript, Biome, Ultracite, and Lefthook.",
   "author": "Christopher Carpenter <mrchriscarpenter@outlook.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prettier-write": "prettier --write .",
-    "prettier-check": "prettier --check .",
-    "prepare": "husky"
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": "next lint",
-    "**/*": "prettier --write --ignore-unknown"
+    "commit": "commit"
   },
   "dependencies": {
-    "next": "14.2.15",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "next": "15.4.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@types/node": "^22.7.5",
-    "@types/react": "^18.3.11",
-    "@types/react-dom": "^18.3.1",
-    "@typescript-eslint/eslint-plugin": "^8.8.1",
-    "@typescript-eslint/parser": "^8.8.1",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.15",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-import-resolver-typescript": "^3.6.3",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsx-a11y": "^6.10.0",
-    "eslint-plugin-react": "^7.37.1",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "husky": "^9.1.6",
-    "lint-staged": "^15.2.10",
-    "prettier": "^3.3.3",
-    "typescript": "5.5.4"
+    "@biomejs/biome": "2.1.2",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/prompt-cli": "^19.8.1",
+    "@types/node": "^24.0.14",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "lefthook": "^1.12.2",
+    "typescript": "^5.8.3",
+    "ultracite": "5.0.46"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

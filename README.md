@@ -2,15 +2,16 @@
 
 # Minimal Next.js Starter Template
 
-This is a minimal [Next.js](https://nextjs.org) starter template preconfigured with [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org), [Prettier](https://prettier.io), and [Husky](https://typicode.github.io/husky/#/).
+This is a minimal [Next.js](https://nextjs.org) starter template preconfigured with [TypeScript](https://www.typescriptlang.org), [Biome](https://biomejs.dev), [Ultracite](https://www.ultracite.ai), [Lefthook](https://lefthook.dev), and [commitlint](https://commitlint.js.org).
 
 ## Features
 
-- [Next.js 14](https://nextjs.org/docs/getting-started) with [React 18.3](https://reactjs.org/docs/getting-started.html)
+- [Next.js 15](https://nextjs.org/docs/getting-started) with [React 19.1](https://reactjs.org/docs/getting-started.html)
 - [TypeScript](https://www.typescriptlang.org/docs)
-- [ESLint](https://eslint.org/docs/latest/user-guide/getting-started)
-- [Prettier](https://prettier.io/docs/en/index.html)
-- [Husky](https://typicode.github.io/husky/#/)
+- [Biome](https://biomejs.dev/guides/getting-started)
+- [Ultracite](https://www.ultracite.ai/introduction)
+- [Lefthook](https://lefthook.dev)
+- [commitlint](https://commitlint.js.org)
 
 ## Getting Started
 
@@ -20,13 +21,13 @@ This is a minimal [Next.js](https://nextjs.org) starter template preconfigured w
 
 ### Install NPM Packages
 
-```bash
+```Shell
 npm i
 ```
 
 ### Start Next.js in Development Mode
 
-```bash
+```Shell
 npm run dev
 ```
 
@@ -34,16 +35,56 @@ The application will start at [http://localhost:3000](http://localhost:3000) by 
 
 ### Start Next.js in Production Mode
 
-```bash
+```Shell
 npm run build
 npm run start
 ```
 
 The application will start at [http://localhost:3000](http://localhost:3000) by default.
 
+## Ultracite CLI
+
+Ultracite comes with a convenient CLI (invoked as `ultracite` when installed). Here are common ways to use it.
+
+### Linting
+
+The `lint` command wraps the Biome `check` command, which runs the linter without fixing files.
+
+```Shell
+npx ultracite lint
+```
+
+### Formatting
+
+The `format` command wraps the Biome `check --write` command, which runs the linter and fixes files.
+
+```Shell
+npx ultracite format
+```
+
+## Committing
+
+This repo uses [commitlint](https://commitlint.js.org) to help adhere to a commit convention. Commits should follow the [Conventional Commits specification](https://conventionalcommits.org).
+
+Commit types:
+
+- ✨ feat: A new feature
+- 🐛 fix: A bug fix
+- 📚 docs: Documentation only changes
+- 💎 style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- 📦 refactor: A code change that neither fixes a bug nor adds a feature
+- 🚀 perf: A code change that improves performance
+- 🚨 test: Adding missing tests or correcting existing tests
+- 🛠 build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+- ⚙️ ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+- ♻️ chore: Other changes that don't modify src or test files
+- 🗑 revert: Reverts a previous commit
+
+For help with authoring commit messages that adhere to the commit convention, use `npm run commit` to launch an interactive CLI.
+
 ## Learn More
 
-This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, ESLint, Prettier, and Husky.
+This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, Biome, Ultracite, and Lefthook.
 
 The template is based on the Next.js [create-next-app](https://nextjs.org/docs/getting-started#automatic-setup) with additional npm packages and configurations.
 
@@ -51,7 +92,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 If you would like to create your own Next.js app from scratch, run:
 
-```bash
+```Shell
 npx create-next-app@latest
 ```
 

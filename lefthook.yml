@@ -1,0 +1,8 @@
+pre-commit:
+  jobs:
+    - run: npx ultracite format
+      stage_fixed: true
+
+commit-msg:
+  jobs:
+    - run: npx --no -- commitlint --edit $1
