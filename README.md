@@ -2,15 +2,15 @@
 
 # Minimal Next.js Starter Template
 
-This is a minimal [Next.js](https://nextjs.org) starter template preconfigured with [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org), [Prettier](https://prettier.io), and [Husky](https://typicode.github.io/husky/#/).
+This is a minimal [Next.js](https://nextjs.org) starter template preconfigured with [TypeScript](https://www.typescriptlang.org), [Biome](https://biomejs.dev), [Ultracite](https://www.ultracite.ai), and [Lefthook](https://lefthook.dev).
 
 ## Features
 
-- [Next.js 14](https://nextjs.org/docs/getting-started) with [React 18.3](https://reactjs.org/docs/getting-started.html)
+- [Next.js 15](https://nextjs.org/docs/getting-started) with [React 19.1](https://reactjs.org/docs/getting-started.html)
 - [TypeScript](https://www.typescriptlang.org/docs)
-- [ESLint](https://eslint.org/docs/latest/user-guide/getting-started)
-- [Prettier](https://prettier.io/docs/en/index.html)
-- [Husky](https://typicode.github.io/husky/#/)
+- [Biome](https://biomejs.dev/guides/getting-started)
+- [Ultracite](https://www.ultracite.ai/introduction)
+- [Lefthook](https://lefthook.dev)
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ The application will start at [http://localhost:3000](http://localhost:3000) by 
 
 ## Learn More
 
-This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, ESLint, Prettier, and Husky.
+This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, Biome, Ultracite, and Lefthook.
 
 The template is based on the Next.js [create-next-app](https://nextjs.org/docs/getting-started#automatic-setup) with additional npm packages and configurations.
 

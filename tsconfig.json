@@ -3,6 +3,7 @@
     "allowJs": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
+    "checkJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
@@ -24,8 +25,9 @@
     ],
     "resolveJsonModule": true,
     "skipLibCheck": true,
+    "sourceMap": true,
     "strict": true,
-    "target": "es2022"
+    "target": "esnext"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
