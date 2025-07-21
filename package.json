@@ -1,7 +1,7 @@
 {
   "name": "next-starter",
   "private": true,
-  "version": "6.0.0",
+  "version": "6.1.0",
   "type": "module",
   "description": "A minimal Next.js starter template preconfigured with TypeScript, Biome, Ultracite, Lefthook, and commitlint.",
   "author": "Christopher Carpenter <mrchriscarpenter@outlook.com>",
@@ -13,7 +13,7 @@
     "commit": "commit"
   },
   "dependencies": {
-    "next": "15.4.1",
+    "next": "15.4.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -22,12 +22,12 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@commitlint/prompt-cli": "^19.8.1",
-    "@types/node": "^24.0.14",
+    "@types/node": "^24.0.15",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "lefthook": "^1.12.2",
     "typescript": "^5.8.3",
-    "ultracite": "5.0.46"
+    "ultracite": "5.0.47"
   },
   "engines": {
     "node": ">=22"

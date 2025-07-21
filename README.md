@@ -42,6 +42,8 @@ The application will start at [http://localhost:3000](http://localhost:3000) by 
 
 ## Ultracite CLI
 
+Ultracite is a zero-config Biome preset that provides a robust linting and formatting experience for your team and your AI integrations.
+
 Ultracite comes with a convenient CLI (invoked as `ultracite` when installed). Here are common ways to use it.
 
 ### Linting
@@ -82,7 +84,7 @@ For help with authoring commit messages that adhere to the commit convention, us
 
 ## Learn More
 
-This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, Biome, Ultracite, and Lefthook.
+This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, Biome, Ultracite, Lefthook, and commitlint.
 
 The template is based on the Next.js [create-next-app](https://nextjs.org/docs/getting-started#automatic-setup) with additional npm packages and configurations.
 
