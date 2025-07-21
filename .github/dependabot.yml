@@ -4,8 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-    reviewers:
-      - "mrchriscarpenter"
     assignees:
       - "mrchriscarpenter"
     commit-message:
