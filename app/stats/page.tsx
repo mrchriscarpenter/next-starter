@@ -75,7 +75,7 @@ export default async function Stats() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background p-4 antialiased">
       <div className="w-full max-w-md">
-        <div className="relative grid h-[550px] max-h-4/5 grid-rows-[auto_1fr_auto] overflow-hidden rounded-2xl border border-border/50 bg-card/80 text-card-foreground shadow-2xl backdrop-blur-xl">
+        <div className="relative grid h-137.5 max-h-4/5 grid-rows-[auto_1fr_auto] overflow-hidden rounded-2xl border border-border/50 bg-card/80 text-card-foreground shadow-2xl backdrop-blur-xl">
           <div className="px-8 py-6">
             <div className="space-y-2 py-2 text-center">
               <h1 className="font-semibold text-2xl text-foreground tracking-tight">

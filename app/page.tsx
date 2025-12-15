@@ -14,8 +14,8 @@ export default async function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background p-4 antialiased">
       <div className="w-full max-w-md">
-        <div className="relative grid h-[550px] max-h-5/6 grid-rows-[auto_1fr_auto] overflow-hidden rounded-2xl border border-border/50 bg-card/80 text-card-foreground shadow-2xl backdrop-blur-xl">
-          <div className="relative h-[250px] w-full overflow-hidden">
+        <div className="relative grid h-137.5 max-h-5/6 grid-rows-[auto_1fr_auto] overflow-hidden rounded-2xl border border-border/50 bg-card/80 text-card-foreground shadow-2xl backdrop-blur-xl">
+          <div className="relative h-62.5 w-full overflow-hidden">
             <Image
               alt="Bun + Next.js"
               className="h-full w-full object-cover object-center"
@@ -31,7 +31,7 @@ export default async function Home() {
               </div>
               {Boolean(bunInfo.revision) && (
                 <a
-                  className="mt-0.5 pl-[18px] font-mono text-[10px] opacity-90 transition-opacity hover:opacity-100"
+                  className="mt-0.5 pl-4.5 font-mono text-[10px] opacity-90 transition-opacity hover:opacity-100"
                   href={`https://github.com/oven-sh/bun/releases/tag/bun-v${bunInfo.version}`}
                   rel="noopener noreferrer"
                   target="_blank"
