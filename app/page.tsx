@@ -29,7 +29,7 @@ export default async function Home() {
                 <div className="h-2 w-2 animate-pulse rounded-full bg-[#39FF14] shadow-[0_0_8px_rgba(74,222,128,0.8)]" />
                 <span>Bun {bunInfo.version}</span>
               </div>
-              {bunInfo.revision && (
+              {Boolean(bunInfo.revision) && (
                 <a
                   className="mt-0.5 pl-[18px] font-mono text-[10px] opacity-90 transition-opacity hover:opacity-100"
                   href={`https://github.com/oven-sh/bun/releases/tag/bun-v${bunInfo.version}`}
