@@ -1,15 +1,16 @@
 # Minimal Next.js Starter Template
 
-This is a minimal [Next.js](https://nextjs.org) starter template preconfigured with [TypeScript](https://www.typescriptlang.org), [Biome](https://biomejs.dev), [Ultracite](https://www.ultracite.ai), [Lefthook](https://lefthook.dev), and [commitlint](https://commitlint.js.org).
+A minimal [Next.js](https://nextjs.org) starter template powered by [Bun](https://bun.com).
 
-## Features
+## Tech Stack
 
-- [Next.js 15](https://nextjs.org/docs/getting-started) with [React 19.1](https://reactjs.org/docs/getting-started.html)
-- [TypeScript](https://www.typescriptlang.org/docs)
-- [Biome](https://biomejs.dev/guides/getting-started)
-- [Ultracite](https://www.ultracite.ai/introduction)
-- [Lefthook](https://lefthook.dev)
-- [commitlint](https://commitlint.js.org)
+- **Runtime:** [Bun](https://bun.com/docs)
+- **Framework:** [Next.js](https://nextjs.org/docs/getting-started) + [React](https://reactjs.org/docs/getting-started.html)
+- **Language:** [TypeScript](https://www.typescriptlang.org/docs)
+- **CSS Framework:** [Tailwind CSS](https://tailwindcss.com)
+- **Code Formatter and Linter:** [Biome](https://biomejs.dev/guides/getting-started) + [Ultracite](https://www.ultracite.ai/introduction)
+- **Commit Linter:** [commitlint](https://commitlint.js.org)
+- **Git Hooks Manager:** [Lefthook](https://lefthook.dev)
 
 ## Getting Started
 
@@ -17,16 +18,20 @@ This is a minimal [Next.js](https://nextjs.org) starter template preconfigured w
 
 [Create a repo from this template on GitHub](https://github.com/mrchriscarpenter/next-starter/generate).
 
+### Prerequisites
+
+- [Bun](https://bun.com/docs/installation) installed.
+
 ### Install NPM Packages
 
 ```Shell
-npm i
+bun i
 ```
 
 ### Start Next.js in Development Mode
 
 ```Shell
-npm run dev
+bun dev
 ```
 
 The application will start at [http://localhost:3000](http://localhost:3000) by default.
@@ -34,8 +39,8 @@ The application will start at [http://localhost:3000](http://localhost:3000) by 
 ### Start Next.js in Production Mode
 
 ```Shell
-npm run build
-npm run start
+bun build
+bun start
 ```
 
 The application will start at [http://localhost:3000](http://localhost:3000) by default.
@@ -48,18 +53,26 @@ Ultracite comes with a convenient CLI (invoked as `ultracite` when installed). H
 
 ### Linting
 
-The `lint` command wraps the Biome `check` command, which runs the linter without fixing files.
+The `check` command wraps the Biome `check` command, which runs the linter without fixing files.
 
 ```Shell
-npx ultracite lint
+# Using Ultracite CLI
+bunx ultracite check
+
+# Using script in package.json
+bun lint
 ```
 
 ### Formatting
 
-The `format` command wraps the Biome `check --write` command, which runs the linter and fixes files.
+The `fix` command wraps the Biome `check --write` command, which runs the linter and fixes files.
 
 ```Shell
-npx ultracite format
+# Using Ultracite CLI
+bunx ultracite fix
+
+# Using script in package.json
+bun format
 ```
 
 ## Committing
@@ -80,23 +93,4 @@ Commit types:
 - ♻️ chore: Other changes that don't modify src or test files
 - 🗑 revert: Reverts a previous commit
 
-For help with authoring commit messages that adhere to the commit convention, use `npm run commit` to launch an interactive CLI.
-
-## Learn More
-
-This project is intended to provide guidance on how to setup Next.js with useful development tools such as TypeScript, Biome, Ultracite, Lefthook, and commitlint.
-
-The template is based on the Next.js [create-next-app](https://nextjs.org/docs/getting-started#automatic-setup) with additional npm packages and configurations.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-If you would like to create your own Next.js app from scratch, run:
-
-```Shell
-npx create-next-app@latest
-```
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Learn Next.js](https://nextjs.org/learn)
+For help with authoring commit messages that adhere to the commit convention, use `bun commit` to launch an interactive CLI.

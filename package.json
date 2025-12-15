@@ -3,14 +3,14 @@
   "version": "7.0.0",
   "private": true,
   "type": "module",
-  "description": "A minimal Next.js starter template preconfigured with TypeScript, Biome, Ultracite, Lefthook, and commitlint.",
+  "description": "A minimal Next.js starter template powered by Bun.",
   "author": "Christopher Carpenter <mrchriscarpenter@outlook.com>",
   "license": "MIT",
   "scripts": {
     "dev": "bun --bun next dev",
     "build": "bun --bun next build",
     "start": "bun --bun next start",
-    "commit": "commit",
+    "commit": "bunx commit",
     "lint": "bunx ultracite check",
     "format": "bunx ultracite fix"
   },
