@@ -1,5 +1,5 @@
+import { cpus, totalmem } from "node:os";
 import Link from "next/link";
-import { cpus, totalmem } from "os";
 
 export const dynamic = "force-dynamic";
 
