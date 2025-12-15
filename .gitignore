@@ -1,3 +1,10 @@
+# .gitignore for Next.js projects
+
+# Package managers
+package-lock.json
+bun.lock
+bun.lockb
+
 # Node.js dependencies
 node_modules
 
@@ -35,3 +42,8 @@ next-env.d.ts
 # Logs and temporary files
 *.log
 npm-debug.log*
+bun-debug.log*
+/tmp
+
+# Keys
+*.pem
