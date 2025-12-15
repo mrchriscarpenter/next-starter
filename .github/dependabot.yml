@@ -1,15 +1,15 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "bun"
     directory: "/"
     schedule:
       interval: "monthly"
-    assignees:
-      - "mrchriscarpenter"
     commit-message:
-      prefix: fix
-      prefix-development: chore
+      prefix: build
+      prefix-development: build
       include: scope
     labels:
-      - "npm"
+      - "build"
+      - "bun"
+      - "dependabot"
       - "dependencies"

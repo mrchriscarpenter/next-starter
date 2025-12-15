@@ -1,0 +1,62 @@
+# This file is used to add labels and configure options for the labeler action.
+# For more information, see:
+# https://github.com/actions/labeler
+
+# Add 'feat' label to any PR where the head branch name starts with `feat` or has a `feat` section in the name
+feat:
+  - head-branch: ["^feat", "feat"]
+
+# Add 'fix' label to any PR where the head branch name starts with `fix` or has a `fix` section in the name
+fix:
+  - head-branch: ["^fix", "fix"]
+
+# Add 'docs' label to any PR with a change to .md files within the entire repository, and
+# to any PR where the head branch name starts with `docs` or has a `docs` section in the name
+docs:
+  - changed-files:
+      - any-glob-to-any-file: "**/*.md"
+  - head-branch: ["^docs", "docs"]
+
+# Add 'style' label to any PR where the head branch name starts with `style` or has a `style` section in the name
+style:
+  - head-branch: ["^style", "style"]
+
+# Add 'refactor' label to any PR where the head branch name starts with `refactor` or has a `refactor` section in the name
+refactor:
+  - head-branch: ["^refactor", "refactor"]
+
+# Add 'perf' label to any PR where the head branch name starts with `perf` or has a `perf` section in the name
+perf:
+  - head-branch: ["^perf", "perf"]
+
+# Add 'test' label to any PR where the head branch name starts with `test` or has a `test` section in the name
+test:
+  - head-branch: ["^test", "test"]
+
+# Add 'build' label to any PR where the head branch name starts with `build` or has a `build` section in the name
+build:
+  - head-branch: ["^build", "build"]
+
+# Add 'ci' label to any PR where the head branch name starts with `ci` or has a `ci` section in the name
+ci:
+  - head-branch: ["^ci", "ci"]
+
+# Add 'chore' label to any PR where the head branch name starts with `chore` or has a `chore` section in the name
+chore:
+  - head-branch: ["^chore", "chore"]
+
+# Add 'revert' label to any PR where the head branch name starts with `revert` or has a `revert` section in the name
+revert:
+  - head-branch: ["^revert", "revert"]
+
+# Add 'github actions' label to any PR with a change to files within the `.github/workflows` directory
+"github actions":
+  - changed-files:
+      - any-glob-to-any-file: ".github/workflows/**"
+
+# Add 'dependencies' label to any PR with a change to `package.json` or `package-lock.json`
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "package.json"
+          - "package-lock.json"

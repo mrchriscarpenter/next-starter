@@ -17,23 +17,22 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@735343b667d3e6f658f44d0eca948eb6282f2b76 #v2.0.2
         with:
-          node-version: latest
-          cache: "npm"
+          bun-version: latest
 
-      - name: Install dependencies based on lockfile
-        run: npm ci
+      - name: Install dependencies with Bun
+        run: bun --bun install --frozen-lockfile
 
       - name: Validate current commit (push)
         if: github.event_name == 'push'
-        run: npx commitlint --last --verbose
+        run: bunx commitlint --last --verbose
 
       - name: Validate PR commits (pull_request)
         if: github.event_name == 'pull_request'
-        run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
+        run: bunx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
