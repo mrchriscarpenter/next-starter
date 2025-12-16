@@ -1,6 +1,6 @@
 {
   "name": "next-starter",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "private": true,
   "type": "module",
   "description": "A minimal Next.js starter template powered by Bun.",
