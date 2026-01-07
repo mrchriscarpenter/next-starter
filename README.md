@@ -24,13 +24,13 @@ A minimal [Next.js](https://nextjs.org) starter template powered by [Bun](https:
 
 ### Install NPM Packages
 
-```Shell
+```shell
 bun i
 ```
 
 ### Start Next.js in Development Mode
 
-```Shell
+```shell
 bun dev
 ```
 
@@ -38,7 +38,7 @@ The application will start at [http://localhost:3000](http://localhost:3000) by 
 
 ### Start Next.js in Production Mode
 
-```Shell
+```shell
 bun build
 bun start
 ```
@@ -55,7 +55,7 @@ Ultracite comes with a convenient CLI (invoked as `ultracite` when installed). H
 
 The `check` command wraps the Biome `check` command, which runs the linter without fixing files.
 
-```Shell
+```shell
 # Using Ultracite CLI
 bunx ultracite check
 
@@ -67,7 +67,7 @@ bun lint
 
 The `fix` command wraps the Biome `check --write` command, which runs the linter and fixes files.
 
-```Shell
+```shell
 # Using Ultracite CLI
 bunx ultracite fix
 
