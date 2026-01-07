@@ -5,6 +5,7 @@
     "allowUnusedLabels": false,
     "checkJs": true,
     "esModuleInterop": true,
+    "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "isolatedModules": true,
@@ -30,11 +31,10 @@
     ],
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
     "target": "esnext",
-    "types": ["bun-types", "node"]
+    "types": ["bun-types", "node", "react", "react-dom"]
   },
   "exclude": ["node_modules"],
   "include": [
