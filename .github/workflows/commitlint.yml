@@ -1,6 +1,6 @@
 # This workflow will validate commit messages against the conventional commit specification.
 
-name: "Commit Linter"
+name: Commit Linter
 
 on:
   pull_request:
@@ -27,7 +27,7 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies with Bun
-        run: bun --bun install --frozen-lockfile
+        run: bun install --frozen-lockfile
 
       - name: Validate current commit (push)
         if: github.event_name == 'push'

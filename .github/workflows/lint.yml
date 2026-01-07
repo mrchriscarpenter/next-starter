@@ -1,4 +1,4 @@
-# This workflow will lint code using ESLint and check formatting with Prettier.
+# This workflow will lint and format code using Biome and Ultracite.
 
 name: Lint Code
 
@@ -25,7 +25,7 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies with Bun
-        run: bun --bun install --frozen-lockfile
+        run: bun install --frozen-lockfile
 
       - name: Lint code
-        run: bun --bun run lint
+        run: bun run lint
