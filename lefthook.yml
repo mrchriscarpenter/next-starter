@@ -1,6 +1,6 @@
 pre-commit:
   jobs:
-    - run: bun --bun run format
+    - run: bun run format
       stage_fixed: true
 
 commit-msg:
