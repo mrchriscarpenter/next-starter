@@ -32,7 +32,7 @@
     "lefthook": "^2.0.13",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
-    "ultracite": "7.0.9"
+    "ultracite": "7.1.2"
   },
   "engines": {
     "node": ">=24"
