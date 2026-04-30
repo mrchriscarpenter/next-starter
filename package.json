@@ -1,4 +1,21 @@
 {
+  "name": "next-starter",
+  "version": "7.3.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal Next.js starter template powered by Bun.",
+  "author": "Christopher Carpenter <mrchriscarpenter@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun --bun next dev",
+    "build": "bun --bun next build",
+    "start": "bun --bun next start",
+    "commit": "commit",
+    "lint": "ultracite check",
+    "format": "ultracite fix",
+    "check": "ultracite check",
+    "fix": "ultracite fix"
+  },
   "dependencies": {
     "next": "16.2.4",
     "react": "19.2.5",
@@ -19,23 +36,6 @@
     "typescript": "6.0.3",
     "ultracite": "7.6.2"
   },
-  "name": "next-starter",
-  "scripts": {
-    "dev": "bun --bun next dev",
-    "build": "bun --bun next build",
-    "start": "bun --bun next start",
-    "commit": "commit",
-    "lint": "ultracite check",
-    "format": "ultracite fix",
-    "check": "ultracite check",
-    "fix": "ultracite fix"
-  },
-  "type": "module",
-  "version": "7.3.0",
-  "private": true,
-  "description": "A minimal Next.js starter template powered by Bun.",
-  "author": "Christopher Carpenter <mrchriscarpenter@outlook.com>",
-  "license": "MIT",
   "engines": {
     "node": ">=24"
   }
